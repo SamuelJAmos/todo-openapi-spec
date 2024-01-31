@@ -8,9 +8,9 @@ info:
 
     Useful links
 
-    - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
+    - [Todo App repository](https://github.com/SamuelJAmos/todo-openapi-spec)
 
-    - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
+    - [The source API definition for the Todo App](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
     # Example links above. Change to match/use as inspo on useful context keeping.
   termsOfService: http://swagger.io/terms/
   # Example TOS page.
