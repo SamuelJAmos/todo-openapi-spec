@@ -1,0 +1,34 @@
+openapi: "3.0.2"
+info:
+  title: Swagger Todo App - OpenAPI 3.0
+  description:
+    Simple Todo App Server based on the OpenAPI 3.0 specification. You can find out more about
+    Swagger at [https://swagger.io](https://swagger.io).
+
+
+    Useful links
+
+    - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
+
+    - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
+    # Example links above. Change to match/use as inspo on useful context keeping.
+  termsOfService: http://swagger.io/terms/
+  # Example TOS page.
+  # !!! THIS WILL NEED TO BE CHANGED !!!
+  contact:
+    email: Samuelamos@icloud.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: "1.0"
+externalDocs:
+  description: Find out more about Swagger
+  url: http://swagger.io
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /test:
+    get:
+      responses:
+        "200":
+          description: OK
