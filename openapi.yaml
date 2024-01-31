@@ -20,12 +20,17 @@ info:
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
+    # Why is this needed?
+    # Is it needed???
   version: "1.0"
 externalDocs:
   description: Find out more about Swagger
   url: http://swagger.io
+  # Change to the proper docs URL
+  # Will host the stuff from figma like the user flows and glossary/definitions
 servers:
-  - url: https://api.server.test/v1
+  - url: https://api.server.todo/v1
+  # Change URL for the CORRECT server URL 
 paths:
   /test:
     get:
